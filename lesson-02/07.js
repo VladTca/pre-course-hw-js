@@ -6,8 +6,7 @@ let passportMarried = {
         city: "Bobryisk"
     }
 };
-passportMarried.married = true;
 let passMar = structuredClone(passportMarried)
-passMar.married = false;
+passMar.married = true;
 console.log(passportMarried);
 console.log(passMar);
