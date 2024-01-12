@@ -8,5 +8,5 @@ let passportWithAddress = {
 };
 let newPass = structuredClone(passportWithAddress)
 newPass.address.city='Bobryisk';
-console.log(passportWithAddress);
-console.log(newPass);
+console.log(passportWithAddress.address.city);
+console.log(newPass.address.city);
