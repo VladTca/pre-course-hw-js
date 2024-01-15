@@ -10,4 +10,4 @@ const fruits = [
   "слива",
   "персик",
 ];
-console.log(fruits.slice(1, -1));
+console.log(fruits.slice(1, -2));
